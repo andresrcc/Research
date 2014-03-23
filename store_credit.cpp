@@ -36,7 +36,7 @@ int main(int argc, char *argv[]){
   vector<int> prices;
   vector<int> indices;
   
-  ifstream f("input1.in");
+  ifstream f(argv[1]);
 
   f >> token;
   cases = atoi(token.c_str());
