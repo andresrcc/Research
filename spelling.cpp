@@ -83,7 +83,6 @@ void translator::fill_table(){
       break;
 
     }
-    
   }
 }
 
@@ -96,7 +95,7 @@ vector<int>translator::translate(string token){
     translation.push_back(value);
   }
   return translation;
-  }
+}
 
 void translator::print(vector<int> translation){
   int length = translation.size();
@@ -126,8 +125,6 @@ int main(){
       phonekeys.print(translation);
       cout << ' ';
     }
-    
     cout << endl;
   }
-  
 }
